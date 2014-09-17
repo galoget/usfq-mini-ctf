@@ -23,6 +23,9 @@
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+    <!-- Custom button -->
+    <script src="js/universalButton.js"></script>
+
 </head>
 
 <body>
@@ -77,7 +80,7 @@
                             </a>
                         </li>
                         <li class="message-footer">
-                            <a href="#">Leer Todos los Nuevos Mensajes</a>
+                            <a href="#" onclick="denied();">Leer Todos los Nuevos Mensajes</a>
                             <script type="text/javascript">
                                 var dir = ".com"
                                 var tl=new Array(
@@ -114,7 +117,7 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b class="caret"></b></a>
                     <ul class="dropdown-menu alert-dropdown">
                         <li>
-                            <a href="#">Sin notificaciones <span class="label label-default">0</span></a>
+                            <a href="#" onclick="denied();">Sin notificaciones <span class="label label-default">0</span></a>
                         </li>
                     </ul>
                 </li>
@@ -122,17 +125,17 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a href="#"><i class="fa fa-fw fa-user"></i>Perfil</a>
+                            <a href="#" onclick="denied();"><i class="fa fa-fw fa-user"></i>Perfil</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-fw fa-envelope"></i>Bandeja de entrada</a>
+                            <a href="#" onclick="denied();"><i class="fa fa-fw fa-envelope"></i>Bandeja de entrada</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-fw fa-gear"></i>Configuraciones</a>
+                            <a href="#" onclick="denied();"><i class="fa fa-fw fa-gear"></i>Configuraciones</a>
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="#"><i class="fa fa-fw fa-power-off"></i>Cerrar sesión</a>
+                            <a href="../login/index.html"><i class="fa fa-fw fa-power-off"></i>Cerrar sesión</a>
                         </li>
                     </ul>
                 </li>
@@ -186,7 +189,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a href="#">
+                            <a href="#" onclick="denied();">
                                 <div class="panel-footer">
                                     <span class="pull-left">Ver Detalles</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -208,7 +211,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a href="#">
+                            <a href="#" onclick="denied();">
                                 <div class="panel-footer">
                                     <span class="pull-left">Ver Detalles</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -230,7 +233,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a href="#">
+                            <a href="#" onclick="denied();">
                                 <div class="panel-footer">
                                     <span class="pull-left">Ver Detalles</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -248,11 +251,11 @@
                                     </div>
                                     <div class="col-xs-9 text-right">
                                         <div class="huge">13</div>
-                                        <div>Support Tickets!</div>
+                                        <div>Tickets de Soporte!</div>
                                     </div>
                                 </div>
                             </div>
-                            <a href="#">
+                            <a href="#" onclick="denied();">
                                 <div class="panel-footer">
                                     <span class="pull-left">Ver Detalles</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -287,7 +290,7 @@
                             <div class="panel-body">
                                 <div id="morris-donut-chart"></div>
                                 <div class="text-right">
-                                    <a href="#">Ver Detalles <i class="fa fa-arrow-circle-right"></i></a>
+                                    <a href="#" onclick="denied();">Ver Detalles <i class="fa fa-arrow-circle-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -299,41 +302,41 @@
                             </div>
                             <div class="panel-body">
                                 <div class="list-group">
-                                    <a href="#" class="list-group-item">
+                                    <a href="#" onclick="denied();" class="list-group-item">
                                         <span class="badge">Justo ahora</span>
                                         <i class="fa fa-fw fa-calendar"></i> Calendario actualizado
                                     </a>
-                                    <a href="#" class="list-group-item">
+                                    <a href="#" onclick="denied();" class="list-group-item">
                                         <span class="badge">4 minutos atrás</span>
                                         <i class="fa fa-fw fa-comment"></i> Comentarios por post
                                     </a>
-                                    <a href="#" class="list-group-item">
+                                    <a href="#" onclick="denied();" class="list-group-item">
                                         <span class="badge">23 minutos atrás</span>
                                         <i class="fa fa-fw fa-truck"></i> Orden 392 enviada
                                     </a>
-                                    <a href="#" class="list-group-item">
+                                    <a href="#" onclick="denied();" class="list-group-item">
                                         <span class="badge">46 minutos atrás</span>
                                         <i class="fa fa-fw fa-money"></i> Factura 653 se ha pagado
                                     </a>
-                                    <a href="#" class="list-group-item">
+                                    <a href="#" onclick="denied();" class="list-group-item">
                                         <span class="badge">1 hora atrás</span>
                                         <i class="fa fa-fw fa-user"></i> Un nuevo usuario se ha agregado
                                     </a>
-                                    <a href="#" class="list-group-item">
+                                    <a href="#" onclick="denied();" class="list-group-item">
                                         <span class="badge">2 hora atrás</span>
                                         <i class="fa fa-fw fa-check"></i> Tareas completadas: "recoger ropa de la lavanderia"
                                     </a>
-                                    <a href="#" class="list-group-item">
+                                    <a href="#" onclick="denied();" class="list-group-item">
                                         <span class="badge">ayer</span>
                                         <i class="fa fa-fw fa-globe"></i> Salvado el mundo
                                     </a>
-                                    <a href="#" class="list-group-item">
+                                    <a href="#" onclick="denied();" class="list-group-item">
                                         <span class="badge">dos dias atrás</span>
                                         <i class="fa fa-fw fa-check"></i> Tareas completadas: "corregir error en la pagina de ventas"
                                     </a>
                                 </div>
                                 <div class="text-right">
-                                    <a href="#">Ver Todas las Actividades <i class="fa fa-arrow-circle-right"></i></a>
+                                    <a href="#" onclick="denied();">Ver Todas las Actividades <i class="fa fa-arrow-circle-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -407,7 +410,7 @@
                                     </table>
                                 </div>
                                 <div class="text-right">
-                                    <a href="#">Ver todas las transacciones<i class="fa fa-arrow-circle-right"></i></a>
+                                    <a href="#" onclick="denied();">Ver todas las transacciones<i class="fa fa-arrow-circle-right"></i></a>
                                 </div>
                             </div>
                         </div>
